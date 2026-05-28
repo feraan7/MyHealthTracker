@@ -41,8 +41,8 @@ export default function Register() {
     };
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
-            <div className="glass-panel" style={{ width: '100%', maxWidth: '440px', padding: '2rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh', padding: '1rem' }}>
+            <div className="glass-panel" style={{ width: '100%', maxWidth: '440px', padding: '2rem 1.5rem' }}>
                 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                     <HeartPulse color="var(--primary-color)" size={48} style={{ margin: '0 auto' }} />
                     <h1 className="text-h2" style={{ marginTop: '1rem' }}>Create Account</h1>
@@ -73,7 +73,7 @@ export default function Register() {
                             <input type="password" className="input-field" style={{ paddingLeft: '2.5rem' }} value={password} onChange={e => setPassword(e.target.value)} minLength="6" required />
                         </div>
                     </div>
-                    <div className="grid grid-cols-2" style={{ gap: '1rem' }}>
+                    <div className="grid grid-cols-2 sm-grid-cols-1" style={{ gap: '1rem' }}>
                         <div className="form-group" style={{ marginBottom: 0 }}>
                             <label className="form-label">Height (cm)</label>
                             <div style={{ position: 'relative' }}>

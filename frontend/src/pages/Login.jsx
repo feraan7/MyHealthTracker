@@ -21,8 +21,8 @@ export default function Login() {
     };
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
-            <div className="glass-panel" style={{ width: '100%', maxWidth: '400px', padding: '2rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh', padding: '1rem' }}>
+            <div className="glass-panel" style={{ width: '100%', maxWidth: '400px', padding: '2rem 1.5rem' }}>
                 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                     <HeartPulse color="var(--primary-color)" size={48} style={{ margin: '0 auto' }} />
                     <h1 className="text-h2" style={{ marginTop: '1rem' }}>Welcome Back</h1>
