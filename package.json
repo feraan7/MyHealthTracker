@@ -7,7 +7,7 @@
     "recharts": "^3.8.0"
   },
   "scripts": {
-    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend --include=dev",
     "build": "npm run build --prefix frontend",
     "start": "npm start --prefix backend"
   }
